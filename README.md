@@ -18,6 +18,29 @@ CREATE TABLE fighters (
   submissions INTEGER DEFAULT 0
 );
 
+```sql
+CREATE TABLE events (
+  event_id SERIAL PRIMARY KEY,
+  event_name VARCHAR(255) NOT NULL,
+  location VARCHAR(255) NOT NULL,
+  date TIMESTAMP NOT NULL
+);
+
+
+```sql
+CREATE TABLE fights (
+  fight_id SERIAL PRIMARY KEY,
+  event_id INTEGER REFERENCES events(event_id),
+  fighter1_id INTEGER REFERENCES fighters(fighter_id),
+  fighter2_id INTEGER REFERENCES fighters(fighter_id),
+  winner_id INTEGER REFERENCES fighters(fighter_id),
+  outcome_description TEXT NOT NULL
+);
+
+## Get All Fighters
+```sql
+SELECT * FROM fighters;
+
 
 ## API Documentation
 ### Fighters API
