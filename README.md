@@ -46,23 +46,24 @@ CREATE TABLE fights (
 
 ## Entity Relations
 
+### Fighter Entity (Table: fighters)
 Attributes: fighter_id, first_name, last_name, nationality, weight_class, team, wins, losses, knockouts, submissions
 Relationships:
 One-to-Many with Fight Entity (fights_as_fighter1 and fights_as_fighter2)
-Event Entity (Table: events)
 
+### Event Entity (Table: events)
 Attributes: event_id, event_name, location, date
 Relationships:
 One-to-Many with Fight Entity (fights)
-Fight Entity (Table: fights)
 
+### Fight Entity (Table: fights)
 Attributes: fight_id, event_id, fighter1_id, fighter2_id, winner_id, outcome_description
 Relationships:
 Many-to-One with Event Entity (event)
 Many-to-One with Fighter Entity (fighter1 and fighter2)
 Many-to-One with Fighter Entity (winner)
-Ranking Entity (Table: rankings)
 
+### Ranking Entity (Table: rankings)
 Attributes: ranking_id, weight_class, fighter_id, rank
 Relationships:
 Many-to-One with Fighter Entity (fighter)
