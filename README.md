@@ -7,6 +7,8 @@ Endpoint: GET /fighters
 
 Response:
 
+<pre>
+```json
 [
   {
     "fighter_id": 1,
@@ -21,9 +23,11 @@ Response:
     "submissions": 2,
     "fights_as_fighter1": [],
     "fights_as_fighter2": []
-  },
-  // ... more fighters
+  }
 ]
+```
+</pre>
+
 Get Fighter Details
 Retrieve details of a specific fighter.
 
