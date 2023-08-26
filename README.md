@@ -1,10 +1,14 @@
-API Documentation
-Fighters API
+To Test This 
+
+Type yarn to install all the required dependency
+
+## API Documentation
+### Fighters API
 Get All Fighters
 Retrieve a list of all fighters.
 
-Create Fighter
-Create a new fighter.
+### Create Fighter
+## Create a new fighter.
 
 Endpoint: POST /fighters
 
