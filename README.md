@@ -68,6 +68,10 @@ Attributes: ranking_id, weight_class, fighter_id, rank
 Relationships:
 Many-to-One with Fighter Entity (fighter)
 
+## Architecture Diagram
+
+![ERD](https://ibb.co/tPcMpsJ)
+
 ## API Documentation
 ### Fighters API
 Get All Fighters
