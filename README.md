@@ -80,9 +80,7 @@ Response:
   "wins": 10,
   "losses": 5,
   "knockouts": 3,
-  "submissions": 2,
-  "fights_as_fighter1": [],
-  "fights_as_fighter2": []
+  "submissions": 2
 }
 </pre>
 Endpoint: GET /fighters
@@ -101,9 +99,7 @@ Response:
     "wins": 10,
     "losses": 5,
     "knockouts": 3,
-    "submissions": 2,
-    "fights_as_fighter1": [],
-    "fights_as_fighter2": []
+    "submissions": 2
   }
 ]
 </pre>
@@ -125,9 +121,7 @@ Response:
   "wins": 10,
   "losses": 5,
   "knockouts": 3,
-  "submissions": 2,
-  "fights_as_fighter1": [],
-  "fights_as_fighter2": []
+  "submissions": 2
 }
 </pre  >
 
@@ -144,8 +138,7 @@ Response:
     "event_id": 1,
     "event_name": "UFC Fight Night",
     "location": "Las Vegas, NV",
-    "date": "2023-08-30T18:00:00.000Z",
-
+    "date": "2023-08-30T18:00:00.000Z"
   },
 ]
 </pre>
@@ -168,7 +161,6 @@ Response:
   "event_id": 1,
   "event_name": "UFC Fight Night",
   "location": "Las Vegas, NV",
-  "date": "2023-08-30T18:00:00.000Z",
-  
+  "date": "2023-08-30T18:00:00.000Z"
 }
 </pre>
