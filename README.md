@@ -8,7 +8,6 @@ Endpoint: GET /fighters
 Response:
 
 <pre>
-```
 [
   {
     "fighter_id": 1,
@@ -25,7 +24,6 @@ Response:
     "fights_as_fighter2": []
   }
 ]
-```
 </pre>
 
 Get Fighter Details
