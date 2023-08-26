@@ -70,7 +70,7 @@ Many-to-One with Fighter Entity (fighter)
 
 ## Architecture Diagram
 
-![ERD](https://ibb.co/tPcMpsJ)
+![Diagram](https://github.com/vishnu5104/FullStack-Developer-Task-/assets/86919026/ee2fcf49-5e49-4fa9-adb4-564965c1c4b7)
 
 ## API Documentation
 ### Fighters API
