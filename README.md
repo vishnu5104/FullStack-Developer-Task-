@@ -17,7 +17,7 @@ CREATE TABLE fighters (
   knockouts INTEGER DEFAULT 0,
   submissions INTEGER DEFAULT 0
 );
-
+```
 ```sql
 CREATE TABLE events (
   event_id SERIAL PRIMARY KEY,
@@ -25,7 +25,7 @@ CREATE TABLE events (
   location VARCHAR(255) NOT NULL,
   date TIMESTAMP NOT NULL
 );
-
+```
 
 ```sql
 CREATE TABLE fights (
@@ -36,9 +36,9 @@ CREATE TABLE fights (
   winner_id INTEGER REFERENCES fighters(fighter_id),
   outcome_description TEXT NOT NULL
 );
-
+```
 ## Get All Fighters
-```sql
+
 SELECT * FROM fighters;
 
 
