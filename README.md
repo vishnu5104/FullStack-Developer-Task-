@@ -8,7 +8,7 @@ Endpoint: GET /fighters
 Response:
 
 <pre>
-```json
+```
 [
   {
     "fighter_id": 1,
