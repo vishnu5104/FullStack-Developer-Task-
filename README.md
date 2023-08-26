@@ -2,6 +2,23 @@ To Test This
 
 Type yarn to install all the required dependency
 
+## Fighters Table
+
+```sql
+CREATE TABLE fighters (
+  fighter_id SERIAL PRIMARY KEY,
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  nationality VARCHAR(255) NOT NULL,
+  weight_class VARCHAR(255) NOT NULL,
+  team VARCHAR(255),
+  wins INTEGER DEFAULT 0,
+  losses INTEGER DEFAULT 0,
+  knockouts INTEGER DEFAULT 0,
+  submissions INTEGER DEFAULT 0
+);
+
+
 ## API Documentation
 ### Fighters API
 Get All Fighters
