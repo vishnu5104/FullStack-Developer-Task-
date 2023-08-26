@@ -1,3 +1,5 @@
+#Documentation
+
 To Test This 
 
 Type yarn to install all the required dependency
@@ -18,6 +20,9 @@ CREATE TABLE fighters (
   submissions INTEGER DEFAULT 0
 );
 ```
+
+## Events Table
+
 ```sql
 CREATE TABLE events (
   event_id SERIAL PRIMARY KEY,
@@ -26,6 +31,7 @@ CREATE TABLE events (
   date TIMESTAMP NOT NULL
 );
 ```
+## Fights Table
 
 ```sql
 CREATE TABLE fights (
@@ -37,10 +43,6 @@ CREATE TABLE fights (
   outcome_description TEXT NOT NULL
 );
 ```
-## Get All Fighters
-
-SELECT * FROM fighters;
-
 
 ## API Documentation
 ### Fighters API
